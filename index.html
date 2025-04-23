@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 40px 0;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    .container {
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    .section {
+      background-color: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .section h2 {
+      color: #4CAF50;
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      font-size: 1.8em;
+    }
+
+    .about-me {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .about-me img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      border: 4px solid #4CAF50;
+    }
+
+    .about-text {
+      flex: 1;
+    }
+
+    .skills ul, .projects ul, .hobbies ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .skills li, .projects li, .hobbies li {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+
+    .projects .project-card {
+      display: flex;
+      justify-content: space-between;
+      background-color: #f9f9f9;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .project-card h3 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+
+    .project-card p {
+      font-size: 1em;
+      color: #555;
+    }
+
+    .project-card a {
+      color: #4CAF50;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    .contact a {
+      color: white;
+      font-size: 1.2em;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+
+    footer p {
+      margin: 0;
+      font-size: 0.9em;
+    }
+
+    .social-icons {
+      margin-top: 10px;
+    }
+
+    .social-icons a {
+      color: white;
+      font-size: 1.5em;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Omkar Awade</h1>
+    <p>Full-Stack Web Developer</p>
+  </header>
+
+  <div class="container">
+
+    <!-- About Me Section -->
+    <div class="section about-me">
+      <img src="WhatsApp Image 2025-04-23 at 12.59.06_e1fd6841.jpg" alt="Omkar Awade">
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>Hello, I'm Omkar Awade, a passionate web developer with a keen interest in building dynamic and responsive websites. I have experience in both front-end and back-end technologies, and I strive to create applications that are user-friendly, performant, and accessible.</p>
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5 & CSS3</li>
+        <li>JavaScript (ES6+)</li>
+        <li>React & Vue.js</li>
+        <li>Node.js & Express</li>
+        <li>MongoDB & MySQL</li>
+        <li>Git & GitHub</li>
+      </ul>
+    </div>
+
+    <!-- Projects Section -->
+    <div class="section projects">
+      <h2>Projects</h2>
+      
+      <div class="project-card">
+        <div>
+          <h3>JS date utility web</h3>
+          <p>A personal portfolio website to showcase my skills and projects.</p>
+        </div>
+        <a href="https://loquacious-biscuit-2c6468.netlify.app/">View Project</a>
+      </div>
+
+      <div class="project-card">
+        <div>
+          <h3>Basic js program</h3>
+          <p>A web application to manage tasks and to-do lists with authentication.</p>
+        </div>
+        <a href="https://zippy-chebakia-6c9aab.netlify.app/">View Project</a>
+      </div>
+
+     
+    </div>
+
+    <!-- Hobbies Section -->
+    <div class="section hobbies">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Reading Tech Blogs</li>
+        <li>Photography</li>
+        <li>Cycling</li>
+        <li>Traveling</li>
+        <li>Playing Guitar</li>
+      </ul>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="section contact">
+      <h2>Contact Me</h2>
+      <p>If you'd like to get in touch, feel free to reach out to me via email or check out my social media links!</p>
+      <a href="mailto:john.doe@example.com">Email Me</a>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Omkar Awade | All Rights Reserved</p>
+    <div class="social-icons">
+      <a href="https://linkedin.com/in/omkarawade" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/yaaaaromkar" target="_blank">GitHub</a>
+    </div>
+  </footer>
+
+</body>
+</html>
